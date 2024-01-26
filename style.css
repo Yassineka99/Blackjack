@@ -1,0 +1,90 @@
+@keyframes slideleft {
+    from{
+        transform: translateX(790%);
+    }
+    to{
+        transform:translateX(0)
+    }
+}
+body{
+    background-image: url("free-photo-green-dynamic-grunge-abstract-background-pattern-wallpaper.jpg");
+    background-size: cover;
+}
+#flipped{
+    position:absolute;
+    right:10%;
+    top:20%;
+    width: 114px;
+    height:162px;
+   
+    
+}
+#card1{
+
+    position: fixed;
+    left:20%;
+   top:20%;
+    width: 114px;
+    height:162px;
+border: none;}
+#card2{
+
+    position:absolute;
+    left:30%;
+   top:20%;
+    width: 114px;
+    height:162px;
+}
+#card3{
+
+    position:absolute;
+    left:40%;
+   top:20%;
+    width: 114px;
+    height:162px;
+}
+#add{
+    position: absolute;
+    left:40% ;
+    top:70%;
+}
+#stop{
+    position: absolute;
+    left:50% ;
+    top:70%;
+}
+button{
+    margin-left: 30px;
+    width:100px;
+    height :40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    background-color:dimgray;
+}
+button:hover{
+    background-color:silver
+}
+#score{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 360px;
+}
+#dealerscore{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+   
+}
+#result{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 300px;
+   
+}
